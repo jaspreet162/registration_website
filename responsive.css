@@ -1,0 +1,48 @@
+@media screen and (max-width:1300px) {
+    .head{
+        height:20vh;
+        flex-direction: column;
+        
+    }
+    .logo{
+        margin: 10px;
+    }
+    img{
+        height: 6vh;
+    }
+    .title{
+        font-size: 30px;
+    }
+    .nav{
+        margin:-8px;
+    }
+   .main{
+    flex-direction: column;
+   }
+   .lines{
+    margin:22px;
+   }
+   .line1{
+        font-size: 45px;
+   }
+   .line2 {
+    font-size: 22px;
+  }
+  .formbox{
+    margin:30px auto;
+    width:70vw;
+  }
+  .my2{
+    width:53vw;
+    margin: 10px auto;
+  }
+  .btn{
+    width:-moz-available;
+    margin:20px auto;
+  }
+}
+@media screen and (max-width:450px) {
+ .btn{ margin: 20px -47px;
+width: -moz-available;}
+}
+

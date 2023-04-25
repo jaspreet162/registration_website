@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <title>Codechamps</title>
+    
+      
+</head>
+
+<body>
+    <header class="head">
+        
+        <div class="logo">
+            <img src="greeen.png" alt="logo">
+        </div>
+        <div class="title"><b>Codechamps</b>
+    </div>
+        <div class="nav">
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+                <li><a href="contactus.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </header>
+    <main class="main">
+        <div class="lines">
+        <div class="line1">This can be your chance to win!!</div>
+    <div class="line2">Participate in the Codechamps coding challenge and win cash prizes,mobiles and other goodies.</div></div>
+        <div class="formbox">
+            <p  class="heading">Register Here!</p>
+            <p  class="instruct">Please fill the form carefully.<br>All the columns are compulsory.</p><br>
+        <form class="content" action="form.php">
+            <p class="my1">Name :</p><input type="text" class="my2" placeholder="enter your name"><br>
+            <p class="my1">Email :</p><input type="text" class="my2" placeholder="enter your Email"><br>
+            <p class="my1">Mobile no. :</p><input type="text" class="my2" placeholder="enter your Mobile no."><br>
+            <p class="my1">Language in which you are going to code :</p>
+            <label class="my1" for="langa">
+                <input type="radio" value="lang C" name="lang" id="langa"> C
+            </label>
+            <label class="my1" for="langb">
+                <input type="radio" value="lang C++" name="lang" id="langb"> C++
+            </label>
+            <label class="my1" for="langc">
+                <input type="radio" value="lang Python" name="lang" id="langc"> Python
+            </label>
+            <label class="my1" for="langd">
+                <input type="radio" value="lang Java" name="lang" id="langd"> Java
+            </label><br>
+            <select class="my2" name="interest" id="interest">
+                <option value="no interest">Select your area of interest</option>
+                <option value="Web Development">Web Development</option>
+                <option value="Cyber Security">Cyber Security</option>
+                <option value="Data Science">Data Science</option>
+                <option value="AI/ML">AI/ML</option>
+                <option value="Android Development">Android Development</option>
+            </select><br>
+            <label class="my1" for="Student">
+                <input type="checkbox" value="stu" name="stud" id="student">Student
+            </label><label class="my1" for="Other">
+                <input type="checkbox" value="ot" name="oth" id="other">Other
+            </label>
+            <br>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+    </main>
+    <footer>
+        Copyright@Jaspreetkaur
+    </footer>
+</body>
+</html>
